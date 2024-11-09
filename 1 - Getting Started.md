@@ -36,6 +36,6 @@ On the left, click on SSH and GPG keys and then near the top right, click New SS
 
 Give your new key a title, and paste the public key in. Click Add SSH key.
 
-![GitHub](images/GitHub_new_ssh_key.png)
+![GitHub](images/GitHub_new_SSH_key.png)
 
 That's it! You won't have to type in your user name and password every time you do something to a remote repository using Git.
