@@ -24,18 +24,18 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCopoPnBENo10erCbO7LQHrvvTUw6SH8oak5iBIo7wC
 
 On GitHub click on your profile picture (top right corner)
 
-![GitHub dashboard profile picture](images\GitHub_dashboard_profile_picture.png)
+![GitHub dashboard profile picture](images/GitHub_dashboard_profile_picture.png)
 
 Then click on the settings option
 
-![GitHub settings menu](images\GitHub_dashboard_profile_menu.png)
+![GitHub settings menu](images/GitHub_dashboard_profile_menu.png)
 
 On the left, click on SSH and GPG keys and then near the top right, click New SSH key.
 
-![GitHub SSH Key page](images\GitHub_ssh_keys_page.png)
+![GitHub SSH Key page](images/GitHub_ssh_keys_page.png)
 
 Give your new key a title, and paste the public key in. Click Add SSH key.
 
-![GitHub](images\GitHub_new_ssh_key.png)
+![GitHub](images/GitHub_new_ssh_key.png)
 
 That's it! You won't have to type in your user name and password every time you do something to a remote repository using Git.
