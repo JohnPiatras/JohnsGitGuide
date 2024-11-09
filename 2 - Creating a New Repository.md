@@ -6,6 +6,7 @@ Log in to GitHub and on the dashboard, click the green New button.
 Fill in a name for this repository, set it to Private (unless you want the whole world to see it) and, in most cases, tick "Add a README file" where you can put a long description of your repository or perhaps even document it fully.
 
 Then, click Create.
+
 ![GitHub new repository page](images/GitHub_new_repository.png)
 
 ## Step 3
@@ -30,6 +31,7 @@ We perform a commit using the following command:
 git commit -m 'Initial commit, including sections 1 to 3 and some images.'
 ```
 The output, in my case, looked like this:
+
 ![Screenshot of my initial commit of this guide](images/Git_initial_commit.png)
 
 The argument `-m` allows a comment to be include with the commit. Try to keep commits relatively small and these messages simple.
