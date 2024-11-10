@@ -80,4 +80,4 @@ This way skips the git init, setting the origin and the need for the set upstrea
 ## Additional
 I accidently used \ in my images links, but for them to work on GitHub I needed to use /. So I have done an additional add and commit to fix this.
 
-[Next](3%20-%20Commit%20history.md)
+[Next](3%20-%20Status%20and%20staging.md)
