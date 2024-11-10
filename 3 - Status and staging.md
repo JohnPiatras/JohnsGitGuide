@@ -123,3 +123,27 @@ This text was added before staging the file.
 This text was added after staging the file.
 Yet another sentence
 ```
+
+Then, run
+```
+git diff staging_test.txt
+```
+
+![Screenshot of the output of git diff staging_test.txt](images/git_diff_screenshot.png)
+
+This shows what changed from the last staged change and the current version of the file. Oddly, it seems to think I removed and re-added the second sentence, but I didn't.
+
+Note that after doing `git add` for a change, it will not show up when doing `git diff`, we have to use `git diff --cached staging_test.txt` to see the difference between the file and any staged changes.
+
+`git diff HEAD staging_test.txt` will show all staged or unstaged changes since the last commit. `git diff HEAD` will show all changes to all files since the last commit.
+
+I will now stage and commit all changes thus far.
+
+Then, if we do `git diff HEAD` no changes will show.
+
+We can then see what changed between the current commit and the commit before using:
+```
+git diff master^ staging_test.txt
+```
+
+This will show the same changes we saw in the `git diff` screenshot above. Added addtional `^` just after `master` compares the current commit to commits further in the past.
