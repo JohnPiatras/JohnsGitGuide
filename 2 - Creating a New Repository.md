@@ -1,7 +1,7 @@
 ## Step 1
 Log in to GitHub and on the dashboard, click the green New button.
 
-![The new repository button on the GitHub dashboard](images/github_dashboard_new_repository_button.png)
+![The new repository button on the GitHub dashboard](images/GitHub_dashboard_new_repository_button.png)
 
 ## Step 2
 Fill in a name for this repository, set it to Private (unless you want the whole world to see it) and, in most cases, tick "Add a README file" where you can put a long description of your repository or perhaps even document it fully.
