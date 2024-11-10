@@ -56,5 +56,25 @@ The '-u' ('--set-upstream') flag sets the remote origin as the upstream referenc
 
 Now, if you go to your repository on GitHub, you should see your files.
 
+## Alternative, lazy way
+Do steps 1 & 2 as above.
+
+Then, in git BASH cd to the root folder were you want to store your repository and run:
+```
+git clone git@github.com:JohnPiatras/JohnsGitGuide.git
+```
+This will create a folder with the same name as your repository.
+Cd into that folder and copy in whatever files make up your project (or start your project).
+When ready to commit run:
+```
+git add -A
+git commit -m 'Initial commit comment here'
+git push
+```
+
+This way skips the git init, setting the origin and the need for the set upstream parameter on the first push as these have already been done by `git clone`.
+
 ## Additional
 I accidently used \ in my images links, but for them to work on GitHub I needed to use /. So I have done an additional add and commit to fix this.
+
+[Next](3%20-%20Commit%20history.md)
