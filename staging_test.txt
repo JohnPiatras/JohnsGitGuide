@@ -1,4 +1,3 @@
 This text was added before staging the file.
 This text was added after staging the file.
 Yet another sentence.
-Babylon 5's a big pile 'o shit!
