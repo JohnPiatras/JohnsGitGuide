@@ -147,3 +147,5 @@ git diff master^ staging_test.txt
 ```
 
 This will show the same changes we saw in the `git diff` screenshot above. Added addtional `^` just after `master` compares the current commit to commits further in the past.
+
+[Next](4%20-%20Revert.md)
