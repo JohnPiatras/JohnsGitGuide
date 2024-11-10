@@ -1,5 +1,6 @@
 ## Step 1
 Log in to GitHub and on the dashboard, click the green New button.
+
 ![The new repository button on the GitHub dashboard](images/github_dashboard_new_repository_button.png)
 
 ## Step 2
