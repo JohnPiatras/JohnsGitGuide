@@ -1,3 +1,5 @@
+# Creating a Repository
+
 ## Step 1
 Log in to GitHub and on the dashboard, click the green New button.
 
