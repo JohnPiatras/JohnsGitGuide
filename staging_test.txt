@@ -1,1 +1,2 @@
 This text was added before staging the file.
+This text was added after staging the file.

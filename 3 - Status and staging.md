@@ -63,3 +63,36 @@ This text was added before staging the file.
 ```
 I've saved it as `staging_text.txt`.
 
+We can then stage this file using `git add staging_text.txt`.
+
+Now, lets make another change to it, I've added another sentence:
+```
+This text was added before staging the file.
+This text was added after staging the file.
+```
+
+Now, run `git status`:
+
+![Screenshot showing git status with a staged and unstaged change to the same file](images/git_status_staged_and_unstaged_changes_same_file.png)
+
+So we have a staged change for the new file, and an unstaged modification.
+
+Helpfully, git tells us exactly what we need to do if we want to unstage our staged change to staging_text.txt. This won't modify the file, but it will move it to untracked (as it is new). We might want to do that if we change our mind and want to make further changes.
+
+I'm not going to do this right now, I'm going to 
+```
+git commit -m 'Commit a partial change to a file'
+git push
+```
+
+Then, checking on git hub we can see that the file has been pushed with the first sentence, but not the second:
+
+![Screenshot of staging_test.txt on Git Hub](images/staging_text_screenshot_1.png)
+
+This demonstrates that staging a change does indeed snapshot the file at that point in time.
+
+`git status` still show a pending change for this file:
+
+![Screenshot of the unstaged edit to staging_test.txt](images/git_status_unstaged_change.png)
+
+I am going to add, commit and push this change.
