@@ -50,3 +50,16 @@ For that I need to do `git add -A`, followed by a commit. After doing this and p
 ![Screen shot of status of an up to date local repository](images/git_status_A_ok.png)
 
 All is well, and up to date.
+
+## More about Staging
+
+Staging a file add a snapshot of its current state to the staging environment.
+
+Lets try creating a simple text file with some content, staging it then adding more content and commiting it. What actually ends up being committed?
+
+This is my text file:
+```
+This text was added before staging the file.
+```
+I've saved it as `staging_text.txt`.
+
