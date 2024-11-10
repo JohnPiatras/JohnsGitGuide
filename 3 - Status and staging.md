@@ -9,6 +9,24 @@ git status
 
 Here is the output:
 
-[Screen shot of git status output after renaming a file](images/git_status_after_rename.png)
+![Screen shot of git status output after renaming a file](images/git_status_after_rename.png)
 
+The deleted file and untracked file were actually the same file - I've just renamed it. The change, or deletion, of the original is listed but not staged for a commit. The renamed file is currently untracked.
 
+The above screen shot is also untracked at the moment.
+
+Lets add the file for tracking using:
+```
+git add 3\ -\ Status\ and\ staging.md
+```
+
+But, out of curiosity I'll leave the rest as is, so our status looks like:
+
+![Screen shot of git status output after renaming a file](images/git_status_after_tracking_new_file.png)
+
+So, what happens if we commit and push while our status is like this?
+
+```
+git commit -m 'A commit with unstaged changes and untracked files'
+git push
+```
