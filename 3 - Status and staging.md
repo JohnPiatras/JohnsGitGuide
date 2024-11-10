@@ -30,3 +30,23 @@ So, what happens if we commit and push while our status is like this?
 git commit -m 'A commit with unstaged changes and untracked files'
 git push
 ```
+
+The files in my Git Hub repository look like this:
+
+![Screen shot of my repository after commit some changes and not others](images/GitHub_repo_screenshot_section3a.png)
+
+The effect of the file rename can be seen - the new file exists. However, it is also there under it's old name as we did not commit that particular change.
+
+Also, if I were to navigate to page 3 - Status and Staging I would see that the images are not showing, as these files are untracked.
+
+My status now looks like:
+
+![Git status showing untracked files and an unstaged deletion](images/git_status_with_untracked_files.png)
+
+I can use `git commit -a' to commit currently unstaged changes (the deletion), but this will not cause the 3 untracked images to be added.
+
+For that I need to do 'git add -A', followed by a commit. After doing this and pushing, my git status is now:
+
+![Screen shot of status of an up to date local repository](images/git_status_A_ok.png)
+
+All is well, and up to date.
