@@ -96,3 +96,30 @@ This demonstrates that staging a change does indeed snapshot the file at that po
 ![Screenshot of the unstaged edit to staging_test.txt](images/git_status_unstaged_change.png)
 
 I am going to add, commit and push this change.
+
+## Commit history on Git Hub
+
+Having commited some changes to staging_test.txt lets visit Git Hub and see what changed.
+
+If I go to my repo on Git Hub and click the staging_test.txt file I will see it's current contents. Over on the right side of the screen there is a History button.
+
+![Screenshot of the github history button for a file](images/github_history_button.png)
+
+Clicking it shows a list of commits that modified that file:
+
+![Screenshot of the commit history for staging_test_txt](images/github_history_staging_test.png)
+
+Clicking on the topmost commit shows us what changed:
+
+![Screenshot of changes to staging_diff.txt](images/github_staging_test_diff.png)
+
+In fact, it actually shows a comparison for every file that changed in that commit.
+
+## Commit history at the command line
+
+Lets add another sentence to staging_test.txt:
+```
+This text was added before staging the file.
+This text was added after staging the file.
+Yet another sentence
+```
