@@ -30,7 +30,7 @@ Now I want to push this branch to my remote repository:
 git push
 ```
 It didn't work, but helpfully git tells me why, and offers a solution.
-![Screenshot showing error after trying to push new branch](images\git_push_branch_error.png)
+![Screenshot showing error after trying to push new branch](images/git_push_branch_error.png)
 
 ```
 git push --set-upstream origin add-page-about-branching
