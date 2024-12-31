@@ -53,9 +53,9 @@ All is well, and up to date.
 
 ## More about Staging
 
-Staging a file add a snapshot of its current state to the staging environment.
+Staging a file adds a snapshot of its current state to the staging environment.
 
-Lets try creating a simple text file with some content, staging it then adding more content and commiting it. What actually ends up being committed?
+Lets try creating a simple text file with some content, staging it and then adding more content and commiting that too. What actually ends up being committed?
 
 This is my text file:
 ```
@@ -146,6 +146,6 @@ We can then see what changed between the current commit and the commit before us
 git diff master^ staging_test.txt
 ```
 
-This will show the same changes we saw in the `git diff` screenshot above. Added addtional `^` just after `master` compares the current commit to commits further in the past.
+This will show the same changes we saw in the `git diff` screenshot above. Adding addtional `^` just after `master` compares the current commit to commits further in the past.
 
 [Next](4%20-%20Revert.md)
