@@ -29,9 +29,24 @@ Now I want to push this branch to my remote repository:
 ```
 git push
 ```
+
 It didn't work, but helpfully git tells me why, and offers a solution.
+
 ![Screenshot showing error after trying to push new branch](images/git_push_branch_error.png)
 
 ```
 git push --set-upstream origin add-page-about-branching
 ```
+
+Here is what the github page looks like now:
+
+![Screenshot of github repository showing new brach notification](images/github_after_pushing_branch.png)
+
+We have a notification about our new branch (more on pull requests soon) and the brach count is now 2, but we are still looking at the master branch, so this page is not shown.
+
+Use the drop down to switch branches:
+
+![Screenshot showing new branch on github](images/github_new_branch.png)
+
+Now we can see the Branches page, and there is a notification that this branch is 2 commits ahead of master, the 2nd being a fix for a typo commited almost immediately after the initial commit of the branch.
+
