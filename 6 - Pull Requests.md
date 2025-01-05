@@ -58,3 +58,5 @@ git pull
 ![Screenshot showing result of pulling down the changes to master](images/github_pullrequest_10_git_pull_master.png)
 
 Which fast forwards our local repository to the most recent commit in master, which is were the merge has happened.
+
+[Next](7%20-%20Merging%20a%20branch%20on%20the%20command%20line.md)

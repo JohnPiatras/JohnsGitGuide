@@ -57,3 +57,4 @@ Since we didn't use the message parameter, git asks for a commit message. I'm ha
 
 Afterwards do a ```git push``` to push our merge to the remote repository.
 
+[Next](8%20-%20Deleting%20a%20branch.md)
