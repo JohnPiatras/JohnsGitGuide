@@ -1,3 +1,4 @@
 This text was added before staging the file.
 This text was added after staging the file.
 Yet another sentence.
+This sentence was added in the add-page-about-branching branch before the merge.

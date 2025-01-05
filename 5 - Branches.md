@@ -50,3 +50,4 @@ Use the drop down to switch branches:
 
 Now we can see the Branches page, and there is a notification that this branch is 2 commits ahead of master, the 2nd being a fix for a typo commited almost immediately after the initial commit of the branch.
 
+[Next](6%20-%20Pull%20Requests.md)

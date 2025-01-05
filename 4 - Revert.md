@@ -31,4 +31,4 @@ GitHub also shows the revert:
 
 ![Screenshot of github commit history after revert](images/github_history_after_revert.png)
 
-[Next](4%20-%20Pull%20Requests.md)
+[Next](5%20-%20Branches.md)
