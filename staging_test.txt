@@ -3,3 +3,5 @@ This text was added after staging the file.
 Yet another sentence.
 This sentence was added in the add-page-about-branching branch before the merge.
 This sentence was added to the master branch after the add-page-about-branching branch was created, but before it was merged into master.
+
+This was added in master after creating another-branch. In another-branch we will make another edit to this file, then have a look at merging branches via the command line.
