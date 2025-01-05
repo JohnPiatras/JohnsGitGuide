@@ -30,3 +30,5 @@ If we `git reflog` we can even see our commit reverting the mistake:
 GitHub also shows the revert:
 
 ![Screenshot of github commit history after revert](images/github_history_after_revert.png)
+
+[Next](5%20-%20Branches.md)
